@@ -1,0 +1,6 @@
+﻿namespace SereneCoreLearning.Membership {
+    export interface ForgotPasswordRequest extends Serenity.ServiceRequest {
+        Email?: string;
+    }
+}
+

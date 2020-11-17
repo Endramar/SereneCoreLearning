@@ -1,0 +1,36 @@
+{
+  "RootNamespace": "SereneCoreLearning",
+  "ServerTypings": {
+    "Assemblies": [],
+    "LocalTexts": true
+  },
+  "Connections": [
+    {
+      "Key": "Default",
+      "Tables": [
+        {
+          "Tablename": "mov.Genre",
+          "Identifier": "Genre",
+          "Module": "MovieDB",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "mov.Movie",
+          "Identifier": "Movie",
+          "Module": "MovieDB",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "mov.MovieGenres",
+          "Identifier": "MovieGenre",
+          "Module": "MovieDB",
+          "PermissionKey": "Administration:General"
+        }
+      ]
+    }
+  ],
+  "BaseRowClasses": [],
+  "RemoveForeignFields": [],
+  "CustomGenerate": {},
+  "CustomSettings": {}
+}
